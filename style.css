@@ -1,11 +1,11 @@
 /* Basic Style */
-body {
+.body__page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
 
-.header {
+.header__wrapper {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -20,13 +20,13 @@ body {
 
 @media (max-width: 768px) {
 
-  .header {
+  .header__wrapper {
     text-align: center;
   }
 
 }
 
-.main-page {
+.main-page__wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -38,7 +38,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.task-row__wrapper {
   display: flex;
 }
 
@@ -106,7 +106,7 @@ input, button {
   margin-top: 20px;
 }
 
-.input-new-task {
+.input__new-task {
   width: 318px;
 }
 
@@ -139,13 +139,13 @@ input, button {
   width: 226px;
 }
 
-.btn-delete-img {
+.btn__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn-delete-img:hover {
+.btn__delete-img:hover {
   transform: rotateZ(0);
 }
 
